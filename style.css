@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-@media (min-width:940px) {
+@media screen and (min-width:940px) {
 
     .button {
         display: none;
@@ -260,7 +260,7 @@
 }
 
 
-@media (max-width:940px){
+@media screen and (max-width:940px){
 
     iframe{
         width: 340px;
