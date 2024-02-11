@@ -257,7 +257,7 @@
 
 
 
-@media screen (min-width:300px) and (max-width:940px){
+@media screen and (max-width:940px){
 
     iframe{
         width: 340px;
