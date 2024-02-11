@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-@media screen and (min-width:940px) {
-
     .button {
         display: none;
     }
@@ -257,7 +255,6 @@
         margin-bottom: 200px;
     }
 
-}
 
 
 @media screen and (max-width:940px){
