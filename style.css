@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@media (min-width:940px) {
+
+    .button {
+        display: none;
+    }
+
+    /* стили для ссылок на сайте */
+    a {
+        text-decoration: none;
+        color: #1D0003;
+    }
+
+    a:hover {
+        color: #FF1B1B;
+    }
+
+    a:active {
+        color: #ff8181;
+        ;
+    }
+
+
+
+    /*стили шапки сайта*/
+    body {
+        width: 940px;
+        margin: 46px auto 126px;
+    }
+
+    header {
+        margin-bottom: 90px;
+    }
+
+    .mobile_headers{
+        display: none;
+    }
+
+    .chosen {
+        color: #FF1B1B;
+    }
+
+    h1 a {
+        color: #1D0003;
+        font-family: 'Inter', sans-serif;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    h2 a {
+        color: #1D0003;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    p {
+        color: #1D0003;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    li {
+        color: #1D0003;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    ol {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
+    .en_ru {
+        color: #1D0003;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .headers {
+        margin-top: 60px;
+        /* расстояние между en_ru и sveta's blog */
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .h2 {
+        display: flex;
+        justify-self: flex-end;
+        gap: 32px;
+    }
+
+    /*контент раздела about*/
+    .about {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .about_txt {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about_links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    /*works*/
+    .works {
+        display: inline-flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 40px;
+    }
+
+    .works div {
+        display: flex;
+        width: 700px;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 0px;
+    }
+
+    .works h3 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*для годов на странице со всеми работами*/
+    h4 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*страница кейса*/
+    /*шапка кейса*/
+    .header_in_article {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article_name p {
+        font-weight: bold;
+    }
+
+    .article_name {
+        gap: 8px;
+    }
+
+    .article_name h3 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*кейс*/
+    .case {
+        margin-top: 80px;
+        display: inline-flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 80px;
+        width: 940px;
+    }
+
+    .paragraph {
+        display: flex;
+        /* width: 940px; */
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 20px;
+    }
+
+    .paragraph h3 {
+        color: #FF1B1B;
+    }
+
+    .list_keys {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .write_me a {
+        color: #FF1B1B;
+    }
+
+    .write_me a:hover {
+        color: #ff8181;
+    }
+
+    .footer {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 200px;
+    }
+
+}
+
+
+@media (max-width:940px){
+
+    iframe{
+        width: 340px;
+    }
+
+    img {
+        width: 340px;
+    }
+    
+    /* стили для ссылок на сайте */
+    a {
+        text-decoration: none;
+        color: #1D0003;
+    }
+
+    a:hover {
+        color: #FF1B1B;
+    }
+
+    a:active {
+        color: #ff8181;
+        ;
+    }
+
+
+    /*стили шапки сайта*/
+    body {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 72px;
+        margin-bottom: 120px;
+    }
+    
+
+    header {
+        margin-bottom: 54px;
+    }
+
+    .chosen {
+        color: #FF1B1B;
+    }
+
+    h1 {
+        color: #1D0003;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px;
+    }
+
+
+    p {
+        color: #1D0003;
+        font-family: Inter;
+        font-size: 24px;
+        font-style:normal;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    li {
+        color: #1D0003;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+     
+    ol {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 0;
+        margin-top: 0;
+    } 
+
+
+    .en_ru {
+        color: #1D0003;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .headers {
+        display:none;
+    }
+
+    .mobile_headers{
+        margin-top: 60px;
+        /* расстояние между en_ru и sveta's blog */
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+
+    .h2 {
+        display: flex;
+        justify-self: flex-end;
+        gap: 32px;
+    }
+
+    /*контент раздела about*/
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+
+    .about_txt {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        order:2;
+    }
+
+    .about_links {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    /*works*/
+    .works {
+        display: inline-flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 40px;
+    }
+
+    .works div {
+        display: flex;
+        width: auto;
+        margin-right: 16px;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 0px;
+    }
+
+    .works h3 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*для годов на странице со всеми работами*/
+    h4 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*страница кейса*/
+    /*шапка кейса*/
+    .header_in_article {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article_name p {
+        font-weight: bold;
+    }
+
+    .article_name {
+        gap: 8px;
+    }
+
+    .article_name h3 {
+        color: #FF1B1B;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*кейс*/
+    .case {
+        margin-top: 40px;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 80px;
+        width: auto;
+        margin-right: 16px;
+
+    }
+
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .paragraph h3 {
+        color: #FF1B1B;
+    }
+
+    .list_keys {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .write_me a {
+        color: #FF1B1B;
+    }
+
+    .write_me a:hover {
+        color: #ff8181;
+    }
+
+    .footer {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 200px;
+    }
+
+    .menu_headers{
+        margin-top: 60px;
+        /* расстояние между en_ru и sveta's blog */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 9px 24px 11px 24px;
+        background-color: white;
+        border: 1px solid #1D0003;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        color: #FF1B1B;
+        line-height: 29px;
+        margin-bottom: 0;
+        margin-top: 0;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .button:active {
+        background-color:#FF1B1B;
+        color:white;
+    }
+
+   
+
+
+}
